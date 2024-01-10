@@ -40,12 +40,12 @@ The Hangman Game is a Python console-based application that allows users to play
 •	The linked list is used to store a list of words for the Hangman game.  
 •	Words are added to the linked list using the ‘add_word’ method of the ‘Linked List’ class.  
 
-2.	Shuffling Words:
-•	The ‘shuffle_words’ method of the ‘LinkedList’ class shuffles the words in the linked list.  
-•	It converts the linked list into a regular list(‘words’), shuffle the list using ‘random.shuffle()’, and then reconstructs the linked list with the shuffled order.  
+2.	Shuffling Words:  
+•	The ‘shuffle_words’ method of the ‘LinkedList’ class shuffles the words in the linked list.    
+•	It converts the linked list into a regular list(‘words’), shuffle the list using ‘random.shuffle()’, and then reconstructs the linked list with the shuffled order.   
 
-3.	Getting Next Word:
-•	The ‘get_next_word’ method of the ‘LinkedList’ class retrieves the next word for the game.  
+3.	Getting Next Word:   
+•	The ‘get_next_word’ method of the ‘LinkedList’ class retrieves the next word for the game.    
 •	It returns the value of the current head node and moves the ‘head’ reference to the next node in the list.
 
 **Code Structure**
